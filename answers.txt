@@ -1,0 +1,32 @@
+STUDENT={'name': 'Ofek Kirshenboim_Yonatan Lahat',
+         'ID': '209224880_209056845'}
+
+1.
+No, we achieve better accuracy with a log-linear model. For the log-linear model,
+the average accuracy on the dev set was 0.86 after 30 iterations with lr of 0.02, while for the MLP, the average accuracy
+on the dev set was 0.8533 after 20 iterations with lr of 0.01 and a hidden dim of 100.
+
+
+2.
+For the MLP model, the best we achieved was:
+0.28501337588493925 0.910025706940874 0.676666
+train loss       train accuracy     dev accuracy
+
+This was obtained after 80 iterations with a learning rate of 0.001 and a hidden dim of 100.
+
+For the log-linear model, the best we achieved was:
+0.5779623090035352 0.8071979434447301 0.6933333
+train loss       train accuracy     dev accuracy
+
+This was obtained after 70 iterations with a learning rate of 0.001.
+
+
+3.
+Our MLP model successfully learned the XOR function. The number of iterations required varied between runs.
+In some cases, it took approximately 120 iterations, while in others, it took around 400 iterations.
+
+Iteration 125: Loss = 0.7090689263271617, Training Accuracy = 1.0
+Solved XOR in 126 iterations
+
+Iteration 360: Loss = 0.7043772236855019, Training Accuracy = 1.0
+Solved XOR in 361 iterations
